@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="my.receiptlottery.com.MainActivity">
+
+    <item
+        android:id="@+id/action_update"
+        android:orderInCategory="100"
+        android:title="更新對獎資訊"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_etax"
+        android:orderInCategory="120"
+        android:title="統一發票對獎頁"
+        app:showAsAction="never"/>
+</menu>
