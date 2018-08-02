@@ -129,7 +129,9 @@ public class MainActivity extends AppCompatActivity implements ZBarScannerView.R
         }
 
         if (id == R.id.action_etax) {
-            return true;
+            Intent intent = new Intent(MainActivity.this, WebviewActivity.class);
+            intent.putExtra("url", "http://invoice.etax.nat.gov.tw/");
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);
@@ -182,6 +184,7 @@ public class MainActivity extends AppCompatActivity implements ZBarScannerView.R
         dialog.dismiss();
     }
 
+    // 分析掃描到的 QRCode 內容
     private Map<String,String> parseResultContent(String resultContent){
         if (resultContent!=null) {
             Log.d("parseResultContent", "resultcontent: " + resultContent);
