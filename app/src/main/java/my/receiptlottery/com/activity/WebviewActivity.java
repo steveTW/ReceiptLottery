@@ -1,14 +1,15 @@
-package my.receiptlottery.com;
+package my.receiptlottery.com.activity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.util.Log;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import my.receiptlottery.com.R;
 
 public class WebviewActivity extends Activity {
 

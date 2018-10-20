@@ -15,6 +15,8 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import my.receiptlottery.com.util.Utility;
+
 /**
  * 利用 Jsoup 解析財政部統一發票對獎網頁並取得中獎號碼
  */

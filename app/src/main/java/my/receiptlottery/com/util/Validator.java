@@ -1,4 +1,4 @@
-package my.receiptlottery.com;
+package my.receiptlottery.com.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;
